@@ -6,5 +6,5 @@ services:
     restart: always
     ports:
       - "35455:35455"
-    network_mode: bridge
+    network_mode: host
     command: -tv=true -aesKey=wiidoowgrrmxnt0k4ko2wugugewengzt -userid=7234681260 -token=37a716309767df2068fa996995731bc3bf82bdce8762ad87a2c5bd79ff1352bcb35a185ccaf830e3a71951c34dd0a389627ee0798a8ef6b40c0052a976fc966ba32c7ad5642227
